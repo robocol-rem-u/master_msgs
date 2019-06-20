@@ -23,12 +23,12 @@ add_message_files(
 
 )
 
-add_service_files(
-  FILES
-  AckService.srv
-  EndService.srv
-  StartService.srv
-)
+#add_service_files(
+ # FILES
+  #AckService.srv
+  #EndService.srv
+  #StartService.srv
+#)
 
 generate_messages(
   DEPENDENCIES 
