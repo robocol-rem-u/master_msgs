@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(master_msgs)
-
-find_package(catkin REQUIRED COMPONENTS
+find_package(catkin REQUIRED 
+  roscpp 
+  rospy 
+  std_msgs 
   geometry_msgs
   message_generation
 )
@@ -21,20 +23,32 @@ add_message_files(
   sensibility.msg
 )
 
-)
-
 #add_service_files(
- # FILES
-  #AckService.srv
-  #EndService.srv
-  #StartService.srv
+#  FILES
+#  enable.srv
 #)
 
 generate_messages(
-  DEPENDENCIES 
+  DEPENDENCIES
+  std_msgs
   geometry_msgs
 )
 
+
 catkin_package(
-   CATKIN_DEPENDS geometry_msgs message_runtime
+  CATKIN_DEPENDS 
+  message_runtime
+  roscpp
+  rospy
+  std_msgs
+  geometry_msgs
 )
+
+
+# add_service_files(
+#   FILES
+#   Service1.srv
+#   Service2.srv
+# )
+
+
