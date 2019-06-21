@@ -45,10 +45,4 @@ catkin_package(
 )
 
 
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
-
 
