@@ -1,3 +1,3 @@
 std_msgs/Header header
-float32 rpm_derecha
-float32 rpm_izquierda
+float32 rpm_l
+float32 rpm_r
