@@ -23,10 +23,11 @@ add_message_files(
   sensibility.msg
 )
 
-#add_service_files(
-#  FILES
-#  enable.srv
-#)
+
+add_service_files(
+  FILES
+  service_enable.srv
+)
 
 generate_messages(
   DEPENDENCIES
