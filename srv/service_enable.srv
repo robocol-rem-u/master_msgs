@@ -1,4 +1,3 @@
-#request fields
+string message
 ---
-#response fields
-int32 enable
+
