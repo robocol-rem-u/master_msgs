@@ -22,6 +22,7 @@ add_message_files(
   traction_Orders.msg
   sensibility.msg
   geociencia.msg
+  batteries.msg
 )
 
 
