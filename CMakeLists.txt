@@ -21,6 +21,7 @@ add_message_files(
   rpm.msg
   traction_Orders.msg
   sensibility.msg
+  geociencia.msg
 )
 
 
