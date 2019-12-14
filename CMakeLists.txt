@@ -10,6 +10,7 @@ find_package(catkin REQUIRED
 
 add_message_files(
   FILES
+  arm_auto_status.msg
   arm_Orders.msg
   connection.msg
   current.msg
