@@ -1,9 +1,10 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(master_msgs)
 find_package(catkin REQUIRED 
-  roscpp 
-  rospy 
-  std_msgs 
+  roscpp
+  rospy
+  std_msgs
+  sensor_msgs
   geometry_msgs
   message_generation
 )
@@ -24,6 +25,7 @@ add_message_files(
   sensibility.msg
   geociencia.msg
   batteries.msg
+  OFDM.msg
 )
 
 
