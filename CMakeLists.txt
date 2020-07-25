@@ -24,6 +24,7 @@ add_message_files(
   sensibility.msg
   geociencia.msg
   batteries.msg
+  PID.msg
 )
 
 
